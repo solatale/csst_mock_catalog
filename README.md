@@ -5,7 +5,7 @@
 - ID  
   ID in Ilbert's (2009) COSMOS catalog.
 
-- Z_BEST  
+- ZSPEC 
   Photo-z in Ilbert's (2009) catalog.
 
 - FluxSim_*  
