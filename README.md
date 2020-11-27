@@ -1,0 +1,1 @@
+# csst_mock_catalog
