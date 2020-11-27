@@ -28,7 +28,7 @@ The same for y1 and y2 bands.
 
 #### Method of Simulation
 
-###### Sample and Data  
+##### Sample and Data  
 
 Ilbert et al. (2009) COSMOS 2-deg^2 photo-z catalog, which collaborates Subaru, CFHT, UKIRT, etc. observations in optical--NIR scope.
 
@@ -38,7 +38,7 @@ Totally, 62,300 galaxy samples are obtained.
 
 
 
-###### Outline of Procedures
+##### Outline of Procedures
 
 1. Fit SED templates for Ilbert's catalog with fixed photo-zs given by the catalog using LePhare. Emission-lines are added automatically. When SEDs (with emission-lines) are given by the fitting, they are considered as reasonable models, and photometry data in Ilbert's catalog will be omitted in the following steps.
 
