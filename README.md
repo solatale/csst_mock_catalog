@@ -3,13 +3,13 @@
 #### Columns Definition
 
 - ID  
-  ID in Ilbert's (2009) COSMOS catalog.
+  ID in Ilbert et al.'s (2009) COSMOS catalog.
 
 - ZSPEC  
   Photo-z in Ilbert's (2009) catalog.
 
 - FluxSim_*  
-  Simulated mock fluxes for CSST's bands through image simulation from Meng. The fluxes are not intended to enclose total fluxes for objects. Apertures are set to give higher SNR than total flux apertures.
+  Mock fluxes (f_nu in unit of erg/s/cm^2/Hz) for CSST bands through image simulation. The fluxes are not intended to enclose total fluxes for objects. Apertures are set to give higher SNR rather than enclosing total flux.
 
 - ErrFlux_*  
   Corresponding errors for mock fluxes.
@@ -30,9 +30,9 @@ The same for y1 and y2 bands.
 
 ##### Sample and Data  
 
-Ilbert et al. (2009) COSMOS 2-deg^2 photo-z catalog, which collaborates Subaru, CFHT, UKIRT, etc. observations in optical--NIR scope.
+Originally, Ilbert+(2009) COSMOS 2-deg^2 photo-z catalog is used, which collaborates Subaru, CFHT, UKIRT, etc. observations in optical--NIR scope.
 
-COSMOS ACS v2.0 mosaic images, which have pixel sizes as 0.03"/pix. 16 tiles are used currently, with each tile FOV 10'x10'. 
+COSMOS ACS v2.0 mosaic images are used as input, which have pixel sizes as 0.03"/pix. 16 tiles are used currently, with each tile FOV 10'x10'. 
 
 Totally, 62,300 galaxy samples are obtained.
 
